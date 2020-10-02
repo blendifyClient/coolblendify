@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<link rel="stylesheet" href="/css/background_styles.css">
+      <link rel="stylesheet" href="styles.css">
+      <script src="script.js" defer></script>
+      <title>Blendify</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 70px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 20%; /* IE10 */
+  flex: 20%;
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 60%; /* IE10 */
+  flex: 60%;
+  background-color: #DBDBDB;
+  padding: 15px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background:  white;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+   <div id="progressbar"></div>
+   <div id="scrollPath"></div>
+   <section>
+
+<div class="header">
+  <h1 class="text" data-text="Blendify">Blendify</h1>  
+  <p>Blendify on top</p>
+</div>
+
+ <nav class="navbar">
+        <div class="brand-title">Blendify</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="home">Home</a></li>
+            <li><a href="espagnol">Espagnol</a></li>
+            <li><a href="coolstuff">Cool stuff</a></li>
+            <li><a href="lotsofjunk">Lots of junk</a></li>
+          </ul>
+        </div>
+      </nav>
+       <style>
+
+</style>
+
+
+<div class="row">
+  <div class="side">
+        <img src="blendify3.png" alt="hi" style="height:350px;">
+    <h3>blendify</h3>
+    <p>blendify</p>
+     <div class="fakeimg" style="height:60px;">Image</div><br>
+    <div class="fakeimg" style="height:60px;">Image</div><br>
+  </div>
+  <div class="main">
+    <h2>1) Los pronombres personales:</h2>
+    <img src="blank.png" alt="Los pronombres personales" style="height:10px;">
+    <h1>Los pronombres personales se utilizan para designar personas y se classifican en singluliar y plurales </h1>
+    <img src="singular.png" alt="Los pronombres personales" style="height:380px;">
+    <h2>Los pronombres personales pluriales</h2>
+    <img src="plural.png" alt="Los pronombres personales" style="height:380px;">
+      </div>
+</div>
+
+<div class="footer">
+  <h2>Blendify industries</h2>
+</div>
+</section>
+</body>
+</html>
