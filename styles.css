@@ -8,7 +8,10 @@ body ,html{
     padding: 0;
     
 }
-
+.cool {
+color: #36324c;
+font-weight: bold;
+}
 .navbar {
     display: flex;
     position: relative;
