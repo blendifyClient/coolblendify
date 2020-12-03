@@ -69,11 +69,6 @@ font-weight: bold;
     border-radius: 10px;
 }
 
-.pdf {
-    height: 800px;
-    width: 90%;
-}
-
 @media (max-width: 800px) {
     .navbar {
         flex-direction: column;
